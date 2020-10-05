@@ -34,6 +34,7 @@ print("R square value:" , score)
 print("Custom accuracy:" , custom_accuracy(y_test,y_pred,20))
 
 # Testing with a custom input
+
 import numpy as np
 new_prediction = reg.predict(sc.transform(np.array([[100,0,13,50,50]])))
 print("Prediction score:" , new_prediction)
